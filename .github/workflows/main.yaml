@@ -17,5 +17,5 @@ jobs:
       run: echo "The current time and date in GitHub is $(date)"
     - name: echo information about the context
       run: echo "head_ref - ${{github.head_ref}} - ${{github.repository_owner}}"
-    - name: failing the workflow
-      run: fail()
+    - name: Echo my secret
+      run: echo "MY_SECRET is ${{secrets.MY_SECRET}}"
