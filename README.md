@@ -1,1 +1,1 @@
-[![My First Workflow](https://github.com/mezzoxpresso/myworkflow/actions/workflows/main.yaml/badge.svg)](https://github.com/mezzoxpresso/myworkflow/actions/workflows/main.yaml)
+[![My First Workflow](https://github.com/mezzoxpresso/myworkflow/actions/workflows/main.yaml/badge.svg)](https://github.com/mezzoxpresso/myworkflow/actions/workflows/main.yaml).
