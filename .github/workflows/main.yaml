@@ -19,3 +19,9 @@ jobs:
       run: echo "head_ref - ${{github.head_ref}} - ${{github.repository_owner}}"
     - name: Echo my secret
       run: echo "MY_SECRET is ${{secrets.MY_SECRET}}"
+    - name: List my current directory
+      run: ls -l
+    - name: checkout the current repo
+      uses: actions/checkout@v3
+    - name: List my current directory after checkout
+      run: ls -l
