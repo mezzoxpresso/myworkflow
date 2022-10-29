@@ -8,7 +8,7 @@ on:
 jobs:
   my-first-workflow:
   #OS that this job will be running on
-  runs-on: ubuntu-latest
+  runs-on: windows-latest
 
     #list of steps to perform the task
     steps:
