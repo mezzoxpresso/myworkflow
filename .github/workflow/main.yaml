@@ -8,9 +8,11 @@ on:
 jobs:
   my-first-workflow:
   #OS that this job will be running on
-    runs-on: windows-latest
+    runs-on: wwindows-2019
 
     #list of steps to perform the task
     steps:
     - name: echo the date
       run: echo "The current time and date in GitHub is $(date)"
+    - name: echo information about the context
+      run: echo "head_ref - ${{github.head_ref}} - ${{github.repository_owner}}"
