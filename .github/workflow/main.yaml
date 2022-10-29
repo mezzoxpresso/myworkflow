@@ -8,7 +8,7 @@ on:
 jobs:
   my-first-workflow:
   #OS that this job will be running on
-    runs-on: wwindows-2019
+    runs-on: windows-2019
 
     #list of steps to perform the task
     steps:
